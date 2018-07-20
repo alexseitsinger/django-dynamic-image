@@ -21,8 +21,8 @@ NAME = basename(HERE)
 
 
 def read(*parts):
-    with open(join(HERE, *parts), "r", encoding="utf-8") as fp:
-        return fp.read()
+    with open(join(HERE, *parts), "r", encoding="utf-8") as f:
+        return f.read()
 
 
 def find_version(*file_paths):
@@ -200,7 +200,7 @@ setup(
     install_requires=[
         # eg:
         #   "six", or "six>=1.7",
-        "django>=2.0",
+        "Django>=2.0",
     ],
 
     # List additional groups of dependencies here (e.g. development
