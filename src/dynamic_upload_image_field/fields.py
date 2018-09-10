@@ -7,6 +7,9 @@ from django.db.models.signals import pre_save, post_init
 
 class DynamicUploadImageField(ImageField):
     def __init__(self, *args, **kwargs):
+        # Increase max length to support longer filenames
+        if "max_length" not in kwargs:
+            kwargs["max_length"] = 255
         if "upload_to" not in kwargs:
             kwargs["upload_to"] = "dummy"
         self.prime_upload = kwargs.get("prime_upload", False)
