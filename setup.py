@@ -23,7 +23,7 @@ setup(
     include_package_data=True,
     license="BSD 2-Clause License",
     keywords=["django", "imagefield"],
-    install_requires=["Django", "requests"],
+    install_requires=["Django", "requests", "image-tools"],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
