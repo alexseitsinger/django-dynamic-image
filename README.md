@@ -1,30 +1,24 @@
-# Dynamic Upload Image Field
+# Django Dynamic Image
 
 ## Description
 
-A django ImageField that generates it's upload_to value from the model instance method get\_upload\_to.
+A django ImageField whose upload_to value is generated from the modal instance method get_upload_to.
 
 ## Installation
 
 ```python
-pip install dynamic-upload-image-field
-```
-
-or
-
-```python
-pipenv install dynamic-upload-image-field
+pip install django-dynamic-image
 ```
 
 ## Usage
 
 ```python
 from django.db import models
-from dynamic_upload_image_field.fields import DynamicUploadImageField
+from dynamic_image.fields import DynamicImageField
 
 class ExampleModel(models.Model):
     name = models.CharField(max_length=56)
-    image = DynamicUploadImageField()
+    image = DynamicImageField()
 
     def get_upload_to(self, field_name):
         class_name = self.__class__.__name__.lower()
