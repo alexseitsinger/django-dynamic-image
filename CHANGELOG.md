@@ -1,3 +1,10 @@
+<a name="v1.2.0"></a>
+## [v1.2.0](https://github.com/alexseitsinger/django-dynamic-image/compare/v1.1.1...v1.2.0) (2019-06-29)
+
+### Code Refactoring
+- Imports image_tools.resize_and_crop. ([5e58813](https://github.com/alexseitsinger/django-dynamic-image/commit/5e588138af674efb2e0e05fbc399788f2d76b23c))
+
+
 <a name="v1.1.1"></a>
 ## [v1.1.1](https://github.com/alexseitsinger/django-dynamic-image/compare/v1.1.0...v1.1.1) (2019-06-29)
 
