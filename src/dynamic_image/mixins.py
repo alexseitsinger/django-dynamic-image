@@ -35,7 +35,7 @@ class ResizeImageFieldsMixin(object):
                     self,
                     dest_field_name,
                     get_resized_image(
-                        source_field, format="jpeg", dimensions=dimensions
+                        source_field, image_format="jpeg", dimensions=dimensions
                     ),
                 )
                 self.save()
