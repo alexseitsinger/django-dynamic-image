@@ -1,3 +1,10 @@
+<a name="v1.3.2"></a>
+## [v1.3.2](https://github.com/alexseitsinger/django-dynamic-image/compare/v1.3.1...v1.3.2) (2019-07-06)
+
+### Bug Fixes
+- Fixes value check for image fields. ([7ac9e86](https://github.com/alexseitsinger/django-dynamic-image/commit/7ac9e86f0fab7680b7e9e0780e5649f9af7070cf))
+
+
 <a name="v1.3.1"></a>
 ## [v1.3.1](https://github.com/alexseitsinger/django-dynamic-image/compare/v1.3.0...v1.3.1) (2019-07-06)
 
