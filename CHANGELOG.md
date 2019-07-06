@@ -1,3 +1,10 @@
+<a name="v1.3.3"></a>
+## [v1.3.3](https://github.com/alexseitsinger/django-dynamic-image/compare/v1.3.2...v1.3.3) (2019-07-06)
+
+### Bug Fixes
+- Fixes check for resized image source. ([916cfbf](https://github.com/alexseitsinger/django-dynamic-image/commit/916cfbfa3534e41295ef25e02a5ea73d54132c3c))
+
+
 <a name="v1.3.2"></a>
 ## [v1.3.2](https://github.com/alexseitsinger/django-dynamic-image/compare/v1.3.1...v1.3.2) (2019-07-06)
 
