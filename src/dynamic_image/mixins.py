@@ -44,7 +44,7 @@ class ResizeImageFieldsMixin(object):
         if self.dynamic_image_fields is not None:
             for s_field_name, s_field_data in self.dynamic_image_fields.items():
                 s_field = getattr(self, s_field_name, None)
-                if s_field is not None:
+                if s_field:
                     resize = s_field_data.get("resize", None)
                     if resize is not None:
                         for d_field_name, d_field_data in resize.items():
