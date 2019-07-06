@@ -75,7 +75,7 @@ def download_image_as_png(url, file_name=None):
 
 # NOTE: This will resize smaller images and, while it respects aspect
 #       ratios, make the resoution worse.
-def get_resized_image_file(image_field, image_format, dimensions, crop_origin="middle"):
+def get_resized_image(image_field, image_format, dimensions, crop_origin="middle"):
     # Generate the resize image file.
     image_file = resize_and_crop(image_field.file, dimensions, crop_origin)
     # Create a new file object.
