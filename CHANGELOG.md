@@ -1,3 +1,13 @@
+<a name="v1.3.0"></a>
+## [v1.3.0](https://github.com/alexseitsinger/django-dynamic-image/compare/v1.2.0...v1.3.0) (2019-07-06)
+
+### Code Refactoring
+- Renames get_resized_image_file. ([020f913](https://github.com/alexseitsinger/django-dynamic-image/commit/020f913a39813db3cb9b6f49bac1a817cc9792d4))
+
+### Features
+- Adds model mixins module. ([f91ee71](https://github.com/alexseitsinger/django-dynamic-image/commit/f91ee717b5294d5e7158fb4d9d2896de0f3fd53c))
+
+
 <a name="v1.2.0"></a>
 ## [v1.2.0](https://github.com/alexseitsinger/django-dynamic-image/compare/v1.1.1...v1.2.0) (2019-06-29)
 
