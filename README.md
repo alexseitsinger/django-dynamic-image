@@ -2,7 +2,7 @@
 
 ## Description
 
-A django ImageField whose upload_to value is generated from the modal instance method get_upload_to.
+A django ImageField whose upload_to value is generated from a model method.
 
 ## Installation
 
