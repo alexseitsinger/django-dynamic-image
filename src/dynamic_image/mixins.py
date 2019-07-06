@@ -64,7 +64,7 @@ class ClearImageFieldsMixin(object):
         if self.dynamic_image_fields is not None:
             for s_field_name, s_field_data in self.dynamic_image_fields.items():
                 s_field = getattr(self, s_field_name, None)
-                if s_field is None:
+                if not s_field:
                     clear = s_field_data.get("clear", None)
                     if clear is not None:
                         for d_field_name in clear:
