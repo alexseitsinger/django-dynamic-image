@@ -1,3 +1,10 @@
+<a name="v1.3.1"></a>
+## [v1.3.1](https://github.com/alexseitsinger/django-dynamic-image/compare/v1.3.0...v1.3.1) (2019-07-06)
+
+### Bug Fixes
+- Fixes incorrect kwarg. ([31803b1](https://github.com/alexseitsinger/django-dynamic-image/commit/31803b1e573915635c25d2ab24d3cd8b4caac6ce))
+
+
 <a name="v1.3.0"></a>
 ## [v1.3.0](https://github.com/alexseitsinger/django-dynamic-image/compare/v1.2.0...v1.3.0) (2019-07-06)
 
