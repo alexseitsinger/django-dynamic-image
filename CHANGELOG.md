@@ -1,3 +1,7 @@
+<a name="v1.4.0"></a>
+## [v1.4.0](https://github.com/alexseitsinger/django-dynamic-image/compare/v1.3.3...v1.4.0) (2019-09-18)
+
+
 <a name="v1.3.3"></a>
 ## [v1.3.3](https://github.com/alexseitsinger/django-dynamic-image/compare/v1.3.2...v1.3.3) (2019-07-06)
 
